@@ -1,0 +1,116 @@
+#index{background-color: aqua;}
+#sub1{background-color: lightcoral;}
+#sub2{background-color: lightsteelblue;}
+#sub3{background-color: lightcyan;}
+#sub4{background-color: purple;}
+
+.container{align-self: center;}
+
+/*-------KeyFrame Animations------*/
+
+.bt1{
+    position: relative;
+    animation: mykfa1 12s infinite;
+}
+.bt2{
+    position: relative;
+    animation: mykfa2 6s infinite;
+}
+.bt3{
+    position: relative;
+    animation: mykfa3 4s infinite;
+}
+.bt4{
+    position: relative;
+    animation: mykfa4 6s infinite;
+}
+
+@keyframes mykfa1 {
+    0% {
+        top: 0px;
+        background-color: rgb(green);
+    }
+    25% {
+        background-color: rgb(24, 36, 211); opacity: 0.5;
+    }
+    50% {top: 500px;
+        transform: rotate(180deg);
+         background-color:  rgb(140, 123, 139); opacity:0.1;
+    }
+    75% {
+        background-color: rgb(65, 211, 24); opacity:0.5;
+    }
+    100% {
+        top: 0px;
+        background-color: rgb(13, 28, 20);
+    }
+}
+@keyframes mykfa2 {
+    0% {
+        top: 0px;
+                background-color: rgb(39, 118, 123);
+    }
+    25% {
+        background-color: rgb(136, 146, 150);opacity: 0.5;
+    }
+    50% {
+        top: 400px;
+                background-color:  rgb(241, 0, 233);opacity: 0.1;
+    }
+    75% {
+        background-color: rgb(56, 164, 103); opacity: 0.5;
+    }
+    100% {
+        top: 0px;
+        background-color: rgb(221, 26, 16);
+    }
+}
+
+@keyframes mykfa3 {
+    0% {
+        top:0px;
+        left: 0px;
+        background-color: rgb(50, 50, 117);
+    }
+    25% {
+        background-color: rgb(24, 211, 83); opacity: 0.5;
+    }
+    50% {
+        left: 300px;
+        background-color:  rgb(135, 102, 13); opacity: 0.1;;
+    }
+    75% {
+        top:300px;
+        background-color: rgb(134, 11, 73); opacity: 0.5;
+    }
+    100% {
+        left: 0px;
+        background-color: rgb(180, 49, 64);
+    }
+}
+
+@keyframes mykfa4 {
+    0% {
+        right: 0px;
+        top: 0px;
+        transform: rotate(180deg);
+        background-color: rgb(40, 40, 118);
+    }
+    25% {
+        background-color: rgb(118, 199, 126); opacity: 0.5;
+    }
+    50% {
+        right: 250px;
+        top: 250px;
+        transform: rotate(180deg);
+        background-color:  rgb(2, 1, 22); opacity: 0.1;
+    }
+    75% {
+        background-color: rgb(170, 12, 147); opacity: 0.5;
+    }
+    100% {
+        right: 0px;
+        top: 0px;
+        background-color: rgb(207, 69, 69);
+    }
+}
